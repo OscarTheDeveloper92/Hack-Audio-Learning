@@ -1,0 +1,5 @@
+Math Operators: 
+
+Basic mathematical computations can be used with the basic operators of +,-,*, and /. The computer then executes the expression using the order of operations, 'PEMDAS'. PEMDAS stands for Parenthesis, Exponents, Multiplication, Addition, and Subtraction.
+
+Math functions can easily be executed in MATLAB using certain commands. For example sqrt(9) uses the square root function. To find the absolute value and always render a positive number is abs(x). A logarithm of any desired base could be logx(x) where x is our desired value. I also learned that you can round decimal values by simple typing round(x), the way it rounds is synonymous to how it's taught in primary school.
