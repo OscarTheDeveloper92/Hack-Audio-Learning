@@ -1,0 +1,2 @@
+Hack Audio
+Variables: Variables are a set of characters in which you assign them values and can be re-used throughout your programs. Also the MATLAB workspace allows you to view your variables that you have created and stored in memory.
