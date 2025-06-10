@@ -3,3 +3,6 @@ Variables: Variables are a set of characters in which you assign them values and
 
 6/8/25
 Had a true day off and had fun with friends.
+
+6/9/25
+Finished watching the variables video of the module and also learned about the uses of the '=' sign which isn't necessarily that something is equal to something. It's used for assigning functions to variables. I also learned about the semi-colon ';' and how it's used to suppress the output after decalaring variables.
