@@ -6,3 +6,7 @@ Had a true day off and had fun with friends.
 
 6/9/25
 Finished watching the variables video of the module and also learned about the uses of the '=' sign which isn't necessarily that something is equal to something. It's used for assigning functions to variables. I also learned about the semi-colon ';' and how it's used to suppress the output after decalaring variables.
+
+Variable Types
+Different types of data is stored and labeled differently in computer programming. The two main types are numerical and text-based information. 
+Strings: With strings, you can create a collection of characters and assign them to a variable. The string data type is written by declaring your variable followed by the assignment operator, single quotes, and then your text. For example x = 'Hot Dogs.', notice how I can also add spaces and punctuation marks.
