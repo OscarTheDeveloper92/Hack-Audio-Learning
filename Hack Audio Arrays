@@ -1,0 +1,47 @@
+6/10-6/11/25
+Arrays
+In this lesson I'll be learning about Arrays. In short, arrays are variables where multiple elements can be stored under one variable. In MatLab a specific format must be followed when organizing Arrays.
+That formatting is in rows and columns, forming a rectangle. Reviewing my previous lesson, when it comes to listing out your numbers in an array, seperating them via a 
+semi-colon ';' stacks the elements vertically on top of each other. When creating arrays, it's better to create them with similar data types such as an array of only numbers and an array of only letters.
+Sample Code:
+>> arr1 = [ 2 , 7 , 6 , 11 ]
+
+arr1 =
+
+     2     7     6    11
+
+>> arr2 = [ 2 ; 7 ; 6 ; 11 ]
+
+arr2 =
+
+     2
+     7
+     6
+    11
+
+>> arr3 = [ 2 , 7 ; 6 , 11 ]
+
+arr3 =
+
+     2     7
+     6    11
+
+>> arr4 = [ 'H' 'ell' 'o' ]
+
+arr4 =
+
+    'Hello'
+
+>> arr1 = [ 2  7  6  11 ]
+
+arr1 =
+
+     2     7     6    11
+
+>> err = [ '2' , 4 , '6' ]
+
+err =
+
+    '26'
+
+>> 
