@@ -18,5 +18,40 @@ To concatenate (adhere characters together) for example in order to print out 'a
 
 Another cool thing I learned is how to stack strings together in columns. In order to do this we create a variable and assign it to it's separate strings in a brack it, but separate them by using semi-colons instead of commas like so: column = [str1 ; 'World']. Understanding how to format things both vertically and horizontally is going to be a vital skill when it comes to formatting audio signals in arrays, and matrices.
 
+Sample Code:
+>> con = ['a', 'b', 'c' ]
+
+con =
+
+    'abc'
+
+>> mult = ['efg2','4#']
+
+mult =
+
+    'efg24#'
+
+>> str1 = 'Hello'
+
+str1 =
+
+    'Hello'
+
+>> strCon = [str1 , 'World']
+
+strCon =
+
+    'HelloWorld'
+
+>> column = [str1 ; 'World']
+
+column =
+
+  2x5 char array
+
+    'Hello'
+    'World'
+
+
 
 
