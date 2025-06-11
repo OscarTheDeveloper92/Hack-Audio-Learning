@@ -9,4 +9,9 @@ Finished watching the variables video of the module and also learned about the u
 
 Variable Types
 Different types of data is stored and labeled differently in computer programming. The two main types are numerical and text-based information. 
+
 Strings: With strings, you can create a collection of characters and assign them to a variable. The string data type is written by declaring your variable followed by the assignment operator, single quotes, and then your text. For example x = 'Hot Dogs.', notice how I can also add spaces and punctuation marks.
+
+6/10/25
+Another thing about strings is that they don't have to strictly be text. Strings can also be numbers. 
+To concatenate (adhere characters together) for example in order to print out 'abc' as a string of text, you can call the function con = ['char', 'char', 'char'] this will display the inputted characters between the brackets as a single thread of text.
