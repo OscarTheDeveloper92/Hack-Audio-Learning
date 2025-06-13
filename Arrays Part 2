@@ -77,5 +77,56 @@ array =
 >> 
 
 6/12/25
-Reviewed the basic components of a speaker which is an electromagnetic device that takes an electric signal and converts it 
-into sound waves via electromagnetic mechanics of the speaker driver and cone replicating the analogous signal that was converted via DAC.
+Learned how to use the colon operator in an array to be able to recall certain rows or columns of an array as well as group certain elements more efficiently.
+Sample Code:
+
+>> m = [13 , 6 , -2 , 44 , 18 ; -11 , -10 , -9 , -8 , -7 , ; 53 , 54 , 55 , 56 , 57 ; 3 , 1 , 0 , -100 , 99 ; 106 , 107 , 108 , 109 , 110 ]
+
+m =
+
+    13     6    -2    44    18
+   -11   -10    -9    -8    -7
+    53    54    55    56    57
+     3     1     0  -100    99
+   106   107   108   109   110
+
+>> m(1:end,4)
+
+ans =
+
+    44
+    -8
+    56
+  -100
+   109
+
+>> m(:,4)
+
+ans =
+
+    44
+    -8
+    56
+  -100
+   109
+
+>> m(3:5,:)
+
+ans =
+
+    53    54    55    56    57
+     3     1     0  -100    99
+   106   107   108   109   110
+
+>> m(:,:)
+
+ans =
+
+    13     6    -2    44    18
+   -11   -10    -9    -8    -7
+    53    54    55    56    57
+     3     1     0  -100    99
+   106   107   108   109   110
+
+>> 
+
