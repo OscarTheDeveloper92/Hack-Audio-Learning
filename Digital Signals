@@ -1,0 +1,9 @@
+6/13/25
+In order to convert analog audio signals into a digital form you have to take 'samples' of the signal.
+These digital signals are a representation of the amplitude of the signal with respect to time in a process 
+called pulse code modulation (PCM). The amount of amplitude measurements is known as the sample rate, common
+sample rates are 44,100 samples per second (CD) and 48,000 samples per second (DVD). In MatLab these audio samples
+can be stored as elements in an array. In a graph an analog signal can appear as a sine wave while a 
+digitized signal can be represented as a lolipop graph which is a sampled representation of the analog signal
+within an amplitude vs time graph.
+
