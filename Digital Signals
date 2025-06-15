@@ -7,3 +7,6 @@ can be stored as elements in an array. In a graph an analog signal can appear as
 digitized signal can be represented as a lolipop graph which is a sampled representation of the analog signal
 within an amplitude vs time graph.
 
+6/14/25
+Review from yesterday. The main purpose behind DSP is to sample analog audio signals and digitize them 
+by sampling their amplitude with respect to time.
