@@ -1,9 +1,19 @@
 6/14-6/15 '25
 Upon trying to input an audio file into MatLab I encountered a common error and noticed that my command window
 prompt wasn't taking in any more user inputs. After a quick google search I found out that the program was
-'busy' and awaited a user input. In order to interupt the program and resume programming I pressed Ctrl+C.
+'busy' and awaited a user input. In order to interrupt the program and resume programming I pressed Ctrl+C.
 
 After fixing my issue with importing an audio file I was able to properly input the file in MatLab and assign the audio file
 with 2 seperate variable names (Fs, and y) as well as use the audioread command. For my variables Fs and y, Fs 
 was the sample rate of my audio signal and y is the elements in the sample array which I also plotted. When I displayed 
 the plot, I was able to see the sine wave of my audio signal on an amplitude vs samples graph.
+
+6/16/25
+AudioRead Function Review:
+The [var1, var2] = audioread('audiofile.wav') function allows you to import the samples of a digital audio file and output the sample rate, and an array of samples.
+The first variable within the brackets of the function is assigned to the sample rate and the second variable is the 
+array of samples.
+
+Side Tangent: I then curated a playlist to get an overview behind the math of audio bit depth. 
+The videos covered the topics of: Binary Numbers, Logarithms and Decibels, Intro to Quantization, and Sound Intensity and decibel scale.
+
