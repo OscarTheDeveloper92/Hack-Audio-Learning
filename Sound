@@ -1,0 +1,17 @@
+Previously with the audioread() function we were able to assign variables to both the array of audio sample elements
+and the proper sample rate of an audio file.
+
+With the sound() function we can take those variables initially stored within the audioread function and play the audio 
+file through out device's sound system. Below is sample code of this execution.
+
+>> [y, Fs] = audioread('Vocal.wav');
+>> sound(y,Fs);
+>> sound(y);
+>> clear sound
+
+In line 7 you can see the previously covered function of audioread() which assigns the variables y and Fs 
+in the brackets to the sample elements in the array and the sample rate of the information within the audiofile.
+Line 8 calls upon the sound function with the variables of y and Fs so that MatLab plays the proper stored 
+information in the audio file as sound.
+Line 9 shows us what happens if we only play one component of the audio file and we get an undesired sound playback, 
+and finally the clear sound command allows us to stop the audio playback.
