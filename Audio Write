@@ -1,0 +1,8 @@
+With the auiowrite function I was able to save a new audio file with a different name using the same variables
+from a previously used audio file.
+Sample Code:
+>> [y, Fs] = audioread('Vocal.wav');
+>> plot(y);
+>> sound(y, Fs);
+>> audiowrite('newFile1.wav',y,Fs);
+>> 
