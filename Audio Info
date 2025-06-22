@@ -1,0 +1,60 @@
+Using the built in audioinfo function in MatLab we can recover diferent types of information of our audio file.
+
+The basic syntax of this function is info = audioinfo(filename)
+The different output variables are: info.Filename (basic string text of the name of our file), info.CompressionMethod (whether it's compressed or not), info.NumChannels (1 or 2, regarding mono/stereo), 
+info.TotalSamples (total number of samples), info.Duration (how long our file is), info.BitsPerSample (bit depth of our audio file).
+
+Sample Code:
+>> audioinfo('Vocal.wav')
+
+ans = 
+
+  struct with fields:
+
+             Filename: '/MATLAB Drive/Vocal.wav'
+    CompressionMethod: 'Uncompressed'
+          NumChannels: 1
+           SampleRate: 44100
+         TotalSamples: 215444
+             Duration: 4.8854
+                Title: []
+              Comment: []
+               Artist: []
+        BitsPerSample: 16
+
+>> signalInfo = audioinfo('Vocal.wav')
+
+signalInfo = 
+
+  struct with fields:
+
+             Filename: '/MATLAB Drive/Vocal.wav'
+    CompressionMethod: 'Uncompressed'
+          NumChannels: 1
+           SampleRate: 44100
+         TotalSamples: 215444
+             Duration: 4.8854
+                Title: []
+              Comment: []
+               Artist: []
+        BitsPerSample: 16
+
+>> signalInfo.NumChannels
+
+ans =
+
+     1
+
+>> signalInfo.BitsPerSample
+
+ans =
+
+    16
+
+>> signalInfo.TotalSamples
+
+ans =
+
+      215444
+
+>> 
