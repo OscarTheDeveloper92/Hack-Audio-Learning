@@ -1,4 +1,5 @@
 Loops
+This structure helps reduce redundancy by being able to create a function that logically repeats (loops) itself.
 
 Conditional Statements
 
