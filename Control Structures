@@ -42,5 +42,21 @@ end
 out
 
 Conditional Statements
+Conditional statements are only executed if they meet a certain 'condition'.
+Example Code:
+% conditionalStatements.m
+clear; clc;
+% This script demonstrates several basic examples for
+% using conditional statements
+
+num = -1
+if num > 0 
+    gtz = true
+elseif num < 0
+    ltz = true
+else
+    zero = true
+end
+
 
 Functions
