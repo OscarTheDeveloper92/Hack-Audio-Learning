@@ -1,5 +1,45 @@
 Loops
 This structure helps reduce redundancy by being able to create a function that logically repeats (loops) itself.
+Example Code:
+% A loop helps reduce redundancy by repeating a set of commands
+% given a certain number to iterate through.
+
+clc; clear;
+
+% Using a loop to repeat commands
+for i = 1:4
+    
+    a = 5
+    b = 2
+end
+
+
+% Using the looping variable
+% You can iterate multiple numbers at a time
+for t = 10:2:16
+    t
+end
+
+% You can also iterate back-wards
+for k = 10:-1:7
+    k
+end
+
+% As well as iterate using arithmetic expressions
+for j = 1:3
+    q = 5*j
+end
+
+% Using the variable to index an array
+in = [0 ; 0.5; 1; -0.5]
+
+for elem = 1:4
+
+    out(elem,1) = in(elem,1)
+
+end
+
+out
 
 Conditional Statements
 
