@@ -136,3 +136,24 @@ ans =
 >> 
 
 Functions
+Functions allow us to create a set of instructions and save it as its' own variable in a sense where
+we can call back on the name of the function in a separate script instead of having to reduntantly 
+rewrite sets of instructions.
+
+Example Code:
+% This is the function created in its' own script
+function [y] = userSqrt(x)
+
+
+y = x ^ (1/2);
+
+% This is a different script that calls this function into the instruction set
+% functionScript.m
+
+% This script can be used to test other function files
+
+clear; clc;
+
+a = 81
+
+b = userSqrt(a)
