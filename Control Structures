@@ -58,5 +58,81 @@ else
     zero = true
 end
 
+Logicals
+Logicals, compare whether 2 variables are equal (==), less (<) or greater (>) than, less than or greater than or equal to (<=, >=),
+and not equal to (~=).
+
+Example Code:
+>> a =  5
+
+a =
+
+     5
+
+>> a == 5
+
+ans =
+
+  logical
+
+   1
+
+>> a == 3
+
+ans =
+
+  logical
+
+   0
+
+>> a > 3
+
+ans =
+
+  logical
+
+   1
+
+>> a > 7
+
+ans =
+
+  logical
+
+   0
+
+>> a >= 3
+
+ans =
+
+  logical
+
+   1
+
+>> a >= 5
+
+ans =
+
+  logical
+
+   1
+
+>> a ~= 3
+
+ans =
+
+  logical
+
+   1
+
+>> a ~= 5
+
+ans =
+
+  logical
+
+   0
+
+>> 
 
 Functions
