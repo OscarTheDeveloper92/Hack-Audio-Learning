@@ -3,4 +3,22 @@ This section covers basic edits such as splicing, consolidating, and time revers
 
 Signal Splicing takes a continuous signal and cuts it into two separate signals.
 Example Code:
+% imported and displayed the riff in a waveform. This code then displays a Figure with the samples graphed.
+
+>> [y,Fs] = audioread('DstGtr.wav');
+>> plot(y)
+
+% Then I chose which sample to splice my signal at. Here I spliced the signal from the beginning 
+% all the way up to sample number 243,000 and assigned it to the new variable sig1. 
+% I similarly did the same for the remaining signals and assigned them to variable sig2.
+
+>> sig1 = y(1:243000);
+>> sig2 = y(243001:end);
+
+% Both of these new splices were plotted and I created two new audio files for sig1 and sig2. 
+
+>> plot(sig1)
+>> plot(sig2)
+>> audiowrite('sig1.wav',sig1,Fs);
+>> audiowrite('sig2.wav',sig2,Fs);
 
