@@ -1,1 +1,6 @@
+DSP Basic Edits
+This section covers basic edits such as splicing, consolidating, and time reversal of a signal.
+
+Signal Splicing takes a continuous signal and cuts it into two separate signals.
+Example Code:
 
