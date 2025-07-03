@@ -22,3 +22,22 @@ Example Code:
 >> audiowrite('sig1.wav',sig1,Fs);
 >> audiowrite('sig2.wav',sig2,Fs);
 
+Consolidating Signals takes two separate audio signals and joins them into one using array concatenation.
+Example Code: In this code, I recalled the two separate signals I created from splicing an original signal
+which in turn I created a new array and assigned it to a new variable. Following that, I also added a 
+second of silence in between each signal.
+
+>> [sig1, Fs] = audioread("sig1.wav");
+>> [sig2, Fs] = audioread("sig2.wav");
+>> plot(sig1);
+>> sound(sig1, Fs);
+>> plot(sig2);
+>> sound(sig2, Fs);
+>> sig3 = [ sig1 ; sig2 ];
+>> plot(sig3);
+>> sound(sig3, Fs);
+>> sig4 = [sig1 ; zeros(Fs, 1) ; sig2];
+>> plot(sig4);
+>> sound(sig4, Fs);
+>> 
+
